@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+body.dark {
+  background-color: #1a1a1a; /* Color de fondo para el modo oscuro */
+  color: #ffffff; /* Color de texto para el modo oscuro */
+}
+
+/* Si tienes un color de fondo por defecto para el modo claro */
+body {
+  background-color: #ffffff; /* Color de fondo para el modo claro */
+  color: #000000; /* Color de texto para el modo claro */
+}
